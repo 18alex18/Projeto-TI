@@ -3,11 +3,32 @@ body {
 }
 
 footer {
-    display: flex;
 	width: 100%;
 	height: 1000px;
 	padding: 130px 0px 130px 0px;
-	background-color: black;
+	background-color: #22305e;
 	color: white;
 }
 
+footer li{
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footersobreliga {
+    display: flex;
+}
+
+.footerligas {
+    display: flex;
+}
+
+.barrafundo {
+    background-color: #151f41;
+    color: white;
+    height: 50px;
+}
