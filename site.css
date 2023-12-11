@@ -2,9 +2,31 @@ body {
     margin: 0;
 }
 
+header {
+	position: fixed;
+	display: flex;
+    width: 100%;
+	height: 82px;
+	top: 0;
+	background-color: #000925;
+	color: white;
+
+	background-image: url(imagens/glyph_yellow.svg);
+	background-repeat: no-repeat;
+	background-position: 40px;
+}
+header img {padding: 15px;}
+
+nav {
+	display: flex;
+	gap: 40px;
+	padding: 45px;
+	font-size: 17px;
+}
+
 footer {
     width: 100%;
-    height: 500px;
+    height: 1000px;
     padding: 130px 0px 130px 0px;
     background-color: #22305e;
     color: white;
@@ -26,7 +48,9 @@ footer a {
 
 .footersobreliga {
     display: flex;
-    gap: 75px;
+    gap: 90px;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 .sobreliga{margin-left: -40px}
@@ -36,12 +60,14 @@ footer a {
 
 .SobreALiga {
     margin-left: 180px;
+    
 }
 
 .footerligas {
     display: flex;
     gap: 250px;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 .LigaPortugalBetclic {
