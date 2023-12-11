@@ -3,25 +3,61 @@ body {
 }
 
 header {
-	position: fixed;
-	display: flex;
+    position: fixed;
+    display: flex;
     width: 100%;
-	height: 82px;
-	top: 0;
-	background-color: #000925;
-	color: white;
+    height: 82px;
+    top: 0;
+    background-color: #000925;
+    color: white;
 
-	background-image: url(imagens/glyph_yellow.svg);
-	background-repeat: no-repeat;
-	background-position: 40px;
+    background-image: url(imagens/glyph_yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
 }
-header img {padding: 15px;}
+
+header img {
+    padding: 20px;
+}
+
 
 nav {
-	display: flex;
-	gap: 40px;
-	padding: 45px;
-	font-size: 17px;
+    background-color: #000925;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: #9195a1;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+section {display: flex;}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    background-color: #4f597e;
+    left: 0;
+    width: 640px;
+    line-height: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 footer {
@@ -53,14 +89,25 @@ footer a {
     line-height: 1.6;
 }
 
-.sobreliga{margin-left: -40px}
-.instituicional{margin-left: -40px}
-.Notícias{margin-left: -40px}
-.Integridade{margin-left: -40px}
+.sobreliga {
+    margin-left: -40px
+}
+
+.instituicional {
+    margin-left: -40px
+}
+
+.Notícias {
+    margin-left: -40px
+}
+
+.Integridade {
+    margin-left: -40px
+}
 
 .SobreALiga {
     margin-left: 180px;
-    
+
 }
 
 .footerligas {
