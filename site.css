@@ -66,11 +66,15 @@ footer {
     color: white;
 }
 
-hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
+footer hr {
     border-color: #121b39;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+hr {
     max-width: 78%;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 footer h3 {
@@ -142,15 +146,16 @@ footer a {
     display: flex;
     background-color: #151f41;
     color: white;
-    height: 50px;
-    gap: 670px;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
     font-size: 14px;
+    margin: 0;
     font-family: 'Muli', sans-serif;
 }
 
 .barrafundoesquerda {
     justify-content: center;
-    margin-left: 170px;
 }
 
 .container {
