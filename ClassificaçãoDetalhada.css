@@ -1,11 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
+hr {max-width: 82%;}
+
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 1210px;
+    border-collapse:separate;
+    border-spacing: 0 8px;
     margin-top: 20px;
+}
+
+thead {
+    background-color: #d9dce4;
 }
 
 th,
@@ -21,11 +29,52 @@ th {
 
 section {
     display: flex;
-    gap: 10px;
     margin-left: 127px;
 
 }
 
-.Posição th {
-    padding: 26px;
-}
+tr:nth-child(even) {
+    background-color: #ffffff;
+   }
+   
+   tr:nth-child(odd) {
+    background-color: #d9dce4;
+   }
+
+   .border {
+    border-right: 8px solid #f5f5f5;
+    border-radius: 10px 10px 0 0;
+   }
+
+   .borderflex{
+    border-right: 8px solid #f5f5f5;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   }
+
+   table .despromoção {
+    background-color: #e57373;
+   }
+
+   table .playoffdes {
+    background-color: #fededb;
+   }
+
+   table .champions {
+    background-color: #b0c8e8;
+   }
+
+   table .championsplayoff {
+    background-color: #caddf7;
+   }
+
+   table .playoffconference {
+    background-color: #fcdeb3;
+   }
+
+   table .conferencelegue {
+    background-color: #ffedd2;
+   }

@@ -46,6 +46,7 @@ nav li a:hover {
     background-color: #4f597e;
     left: 0;
     width: 640px;
+    max-height: 600px;
     line-height: 1;
 }
 
@@ -66,15 +67,51 @@ footer {
     color: white;
 }
 
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    background-color: #151f41;
+    font-size: 11px;
+    gap: 487px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais img {
+    width: 59px;
+    height: 59px;
+    transition: transform 0.3s ease;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2);
+}
+
+.partes {
+    display: flex;
+    margin-left: 400px;
+}
+
 footer hr {
     border-color: #121b39;
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 hr {
     max-width: 78%;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 footer h3 {
