@@ -97,9 +97,15 @@ footer {
     transform: scale(1.2);
 }
 
+.conjunto{
+text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+}
+
 .partes {
     display: flex;
-    margin-left: 400px;
+    flex-wrap: wrap;
 }
 
 footer hr {
@@ -132,22 +138,10 @@ footer a {
     display: flex;
     gap: 90px;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 2.0;
 }
 
 .sobreliga {
-    margin-left: -40px
-}
-
-.instituicional {
-    margin-left: -40px
-}
-
-.Notícias {
-    margin-left: -40px
-}
-
-.Integridade {
     margin-left: -40px
 }
 
@@ -156,26 +150,11 @@ footer a {
 
 }
 
-.footerligas {
-    display: flex;
-    gap: 250px;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
 .LigaPortugalBetclic {
     margin-left: 180px;
 }
 
 .Betclic {
-    margin-left: -40px;
-}
-
-.SABSEG {
-    margin-left: -40px;
-}
-
-.Allianz {
     margin-left: -40px;
 }
 
