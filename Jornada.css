@@ -134,17 +134,39 @@ h2 {
 }
 
 .tabela {
-    width: 310px;
-    height: 550px;
+    width: 420px;
+    height: 500px;
     border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .tabela th, .tabela td {
-    border: 1px solid black;
+    border: 1px solid transparent;
     padding: 8px;
     text-align: center;
+    font-size: 15px;
+    padding: 20px;
 }
 
 .tabela th {
-    background-color: #f2f2f2;
+    background-color: #000925;
+    color: white;
+    font-size: 15px;
+}
+
+.sectiontabela {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.borderradiusdireita {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.borderradiusesquerda {
+    border-radius: 10px 0px 0px 0px;
 }
