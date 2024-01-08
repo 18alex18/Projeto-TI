@@ -150,7 +150,7 @@ thead {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
     padding: 14px;
     text-align: center;
     justify-content: center;
