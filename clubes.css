@@ -56,6 +56,7 @@ section li a {
     color: #9195a1;
     text-decoration: none;
     padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 section li a:hover {
@@ -65,6 +66,7 @@ section li a:hover {
 /*css main */
 main {
     margin-top: 84px;
+    margin-bottom: 60px;
 }
 
 header section {
@@ -93,7 +95,7 @@ article {
     margin-top: 150px;
     margin-left: 40px;
     font-size: 34px;
-    width: 250px;
+    width: 350px;
 }
 
 .titulo2 {
@@ -109,9 +111,9 @@ main div {
 
 main div img {
     position: static;
-    height: 233px;
-    margin-top: 86px;
-    margin-left: 500px;
+    height: 252px;
+    margin-top: 68px;
+    margin-left: 383px;
 }
 
 .epoca {
@@ -131,15 +133,12 @@ h2 {
     margin-left: 131px;
 }
 
-hr {
-    max-width: 82%;
-}
-
 table {
     width: 1210px;
     border-collapse: separate;
     border-spacing: 0 8px;
-    margin-top: 20px;
+    margin-top: 70px;
+    font-size: 20px;
 }
 
 thead {
@@ -150,6 +149,9 @@ th, td {
     border: 1px solid #ddd;
     padding: 14px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 th {
@@ -170,108 +172,13 @@ tr:nth-child(odd) {
     background-color: #d9dce4;
 }
 
-.border {
-    border-right: 8px solid #f5f5f5;
-    border-radius: 10px 13px 0 0;
-}
-
 .borderflex {
-    border-right: 8px solid #f5f5f5;
-    border-radius: 5px 5px 0 0;
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
-td img {margin-left: 15%;}
-
-table .despromoção {
-    background-color: #e57373;
-}
-
-table .playoffdes {
-    background-color: #fededb;
-}
-
-table .champions {
-    background-color: #b0c8e8;
-}
-
-table .championsplayoff {
-    background-color: #caddf7;
-}
-
-table .playoffconference {
-    background-color: #fcdeb3;
-}
-
-table .conferencelegue {
-    background-color: #ffedd2;
-}
-
-.textofundo {
-    max-width: 38%;
-    margin-left: 30px;
-    font-size: 16px;
-}
-
-.textofundo ul li {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.cor1 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #b0c8e8;
-}
-
-.cor2 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #caddf7;
-}
-
-.cor3 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #fcdeb3;
-}
-
-.cor4 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #ffedd2;
-}
-
-.cor5 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #fededb;
-}
-
-.cor6 {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #e57373;
-}
-
-strong {
-    margin-left: 150px;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-span p {
-    margin-left: 150px;
-    font-size: 16px;
-    max-width: 1210px;
-    line-height: 20px;
+td img {
+    margin-left: 4%;
 }
