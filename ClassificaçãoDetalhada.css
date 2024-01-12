@@ -156,7 +156,7 @@ th {
     background-color: #f2f2f2;
 }
 
-section {
+main section {
     display: flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
@@ -274,4 +274,33 @@ span p {
     font-size: 16px;
     max-width: 1210px;
     line-height: 20px;
+}
+
+.barrafundo {
+    display: flex;
+    background-color: #151f41;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    margin-top: 40px;
+}
+
+.barrafundoesquerda {
+    justify-content: center;
+}
+
+.barrafundodireita {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 100%;
+    flex-direction: column;
+    }
 }

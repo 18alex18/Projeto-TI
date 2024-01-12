@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/*css header */
+header {
+    position: fixed;
+    display: grid;
+    width: 100%;
+    height: 82px;
+    top: 0;
+    background-color: #000925;
+    color: white;
+
+    background-image: url(imagens/glyph_yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 40px;
+    z-index: 10;
+}
+
+header img {
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+.puxar {
+    display: flex;
+    margin-top: 31px;
+    gap: 40px;
+}
+
+.puxar a {
+    text-decoration: none;
+    color: white;
+}
+
+.puxar2 {
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #000925;
+}
+
+section li {
+    display: inline-block;
+}
+
+section li a {
+    display: inline-block;
+    color: #9195a1;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section li a:hover {
+    color: deepskyblue;
+}
+
+section {background-color: white;}
+
+.carousel {
+    background: #f5f5f5;
+    margin-top: 185px;
+}
+
+.carousel-cell {
+    width: 50%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.divnoticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 40px;
+}
+
+.horarios {
+    width: 391px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.horarios img {
+    max-width: 391px;
+    max-height: 293px;
+	overflow: hidden;
+	transition: transform 0.5s ease;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.horarios img:hover {
+	transform: scale(1.1);
+}
+
+.cor1 {
+    background-color: rgb(205,20,23);
+    display: inline-block;
+    height: 11px;
+    width: 27px;
+    margin-right: 5px;
+}
+
+main p {
+    margin-left: 30px;
+}
+
+.barrafundo {
+    display: flex;
+    background-color: #151f41;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    margin-top: 40px;
+}
+
+.barrafundoesquerda {
+    justify-content: center;
+}
+
+.barrafundodireita {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 100%;
+    flex-direction: column;
+    }
+}

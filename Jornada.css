@@ -79,7 +79,7 @@ main .table ul {
 }
 
 section ul li a:hover {
-    color: #2596be;
+    color: #000925;
     text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ h2 {
 
 .tabela {
     width: 420px;
-    height: 500px;
+    height: 460px;
     border-collapse: collapse;
     background-color: #ffffff;
     border-radius: 10px;
@@ -145,14 +145,14 @@ h2 {
     border: 1px solid transparent;
     padding: 8px;
     text-align: center;
-    font-size: 14px;
-    padding: 20px;
+    font-size: 13px;
+    padding: 15px;
 }
 
 .tabela th {
     background-color: #000925;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .sectiontabela {
@@ -160,13 +160,68 @@ h2 {
     flex-wrap: wrap;
     max-width: 100%;
     gap: 30px;
+    justify-content: center;
+}
+
+.tabeladiferente {
+    width: 420px;
+    height: 460px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+    margin-top: 40px;
     margin-left: 80px;
 }
 
+.tabeladiferente th {
+    background-color: #000925;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
 .borderradiusdireita {
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 8px 0px 0px;
 }
 
 .borderradiusesquerda {
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+strong {
+    font-size: 19px;
+}
+
+.barrafundo {
+    display: flex;
+    background-color: #151f41;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    margin-top: 40px;
+}
+
+.barrafundoesquerda {
+    justify-content: center;
+}
+
+.barrafundodireita {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 100%;
+    flex-direction: column;
+    }
 }

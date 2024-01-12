@@ -154,7 +154,7 @@ th, td {
     gap: 5px;
 }
 
-section {
+main section {
     display: flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
@@ -177,4 +177,33 @@ tr:nth-child(odd) {
 
 td img {
     margin-left: 4%;
+}
+
+.barrafundo {
+    display: flex;
+    background-color: #151f41;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    margin-top: 40px;
+}
+
+.barrafundoesquerda {
+    justify-content: center;
+}
+
+.barrafundodireita {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 100%;
+    flex-direction: column;
+    }
 }
